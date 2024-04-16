@@ -3,7 +3,7 @@ import { getRandomColor } from './utils';
 export default function initApp() {
 	const buttonColor = document.createElement('button');
 	buttonColor.className = 'button';
-	buttonColor.textContent = 'Изменить звет страницы';
+	buttonColor.textContent = 'Изменить цвет страницы';
 
 	buttonColor.addEventListener('click', event => {
 		const isClickButton = event.target;
